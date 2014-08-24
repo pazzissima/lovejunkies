@@ -73,13 +73,20 @@ z-index: 10000;
 
 
 .content .title_lj{
-  /*margin-top: 300px;*/
-  font-size: 20px;
+  font-size: 50px;
   color: white;
-  top:300px;
+  padding-top:145px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  text-shadow: 1px 1px 1px #FF00FF;
 }
 
-
+.fa-heart{
+  font-size: 0.333333em;
+  line-height: .75em;
+  vertical-align: 85%;
+}
 
 
 

@@ -4,6 +4,7 @@ body{
 /*  padding-top: 20px;*/
   height: 1000px;
   background: url('../images/theater-background.jpg') no-repeat fixed center;
+  background-size: 100% 100%;
 }
 .navigation_bar{
 background-color: black;
@@ -17,11 +18,12 @@ z-index: 10000;
   list-style-type:none;
   margin:0;
   text-align: center !important;
-  padding-bottom: 96px;
-  padding-top: 36px;
+  padding-bottom: 62px;
+  padding-top: 0px;
   border-style: solid;
   border-color: black;
   background-color: black;
+  border-bottom: 1px solid #FFCCCC;
 }
 
 .navigation_bar li{
@@ -46,24 +48,21 @@ z-index: 10000;
 
 
 .tiziana{
-  margin-right: 20px;
-  font-family: 'Courier New';
-  color: red;
-  text-shadow: 1px 1px 1px #ccc;
-  font-size: 15px;
+  margin: 10px 20px 20px 56px;
 }
 .trying{
   float: left;
   margin-top: 34px;
 }
 .others{
-  margin-top: 50px;
+  margin-top: 22px;
   margin-bottom: -53px;
+  float: right;
 }
 
 .navigation_bar ul li a {display:block;}
 .navigation_bar ul li ul {position:absolute;width:110px;padding-bottom:5px;
-    padding-left: 0; padding-top:20px;}  
+    padding-left: 0; padding-top:11px; border-color: black;}  
 .navigation_bar ul li ul li {width:110px;}
 .navigation_bar ul li ul li a {display:block;padding:10px 10px;color:blue; background:#999999;border-style: solid;
   border-color: black;}
@@ -73,13 +72,20 @@ z-index: 10000;
 
 
 .content .title_lj{
-  font-size: 50px;
+  font-size: 30px;
   color: white;
-  padding-top:145px;
+  padding-top:85px;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
   text-shadow: 1px 1px 1px #FF00FF;
+}
+.content .subtitle{
+  color: white;
+  text-shadow: 1px 1px 1px #FF00FF;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
 .fa-heart{

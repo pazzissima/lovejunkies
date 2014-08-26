@@ -1,0 +1,29 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: url('images/group_photo.jpg');
+}
+.row {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0;
+margin-bottom: 0;
+max-width: 76.25em;
+}
+
+.large-8 {
+position: relative;
+}
+
+section, footer {
+float: left;
+width: 100%;
+}
+
+.contentArea {
+background-color: #000;
+background: rgba(0, 0, 0, 0.62);
+padding: 65px 0 36px;
+}

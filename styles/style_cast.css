@@ -61,22 +61,6 @@ padding-top: 10px;
 font-size: 14px;
 }
 
-
-.large-block-grid-4 > li:nth-of-type(4n+1) {
-clear: both;
-}
-.large-block-grid-4 > li:nth-of-type(n) {
-clear: none;
-}
-.small-block-grid-3 > li:nth-of-type(3n+1) {
-clear: none;
-}
-.small-block-grid-3 > li:nth-of-type(3n+1) {
-clear: both;
-}
-.small-block-grid-3 > li:nth-of-type(n) {
-clear: none;
-}
 .bio-popup-gallery ul li {
 margin: 0 0 15px 0;
 }
@@ -118,4 +102,10 @@ padding: 0 0.625em 1.25em;
 .testopacity-wrapper {
 position: relative;
 display: block;
+}
+
+
+.topimage{
+	margin-left: auto;
+    margin-right: auto;
 }

@@ -61,7 +61,7 @@ z-index: 10000;
 }
 
 .navigation_bar ul li a {display:block;}
-.navigation_bar ul li ul {position:absolute;width:110px;padding-bottom:5px;
+.navigation_bar ul li ul {position:absolute;width:125px;padding-bottom:5px;
     padding-left: 0; padding-top:11px; border-color: black;}  
 .navigation_bar ul li ul li {width:110px;}
 .navigation_bar ul li ul li a {display:block;padding:10px 10px;color:blue; background:#999999;border-style: solid;

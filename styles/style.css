@@ -93,6 +93,34 @@ z-index: 10000;
   line-height: .75em;
   vertical-align: 85%;
 }
+.main_page_content img{
+  margin: auto;
+  display: block;
 
+  width: 400px;
+     border-radius: 20px;
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+}
+.main_page_content{
+  background: #500000;
+  margin-left:auto;
+      margin-right:auto;
+      overflow:hidden;
+      width:465px;
+      box-shadow: inset 0 50px rgba(255,255,255,0.1),
+             inset 2px -15px 30px rgba(0,0,0,0.4),
+             2px 2px 5px rgba(0,0,0,0.3);
+      padding: 25px;
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      vertical-align: middle;
+      text-align:center;
+}
+
+.main_text{
+  margin: 10px 50px 20px 50px;
+}
 
 

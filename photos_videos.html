@@ -1,17 +1,18 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Sliderman.js - Examples - Created by Devtrix.net</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta http-equiv="imagetoolbar" content="no" />
-    <meta name="keywords" content="slideman, sliderman.js, javascript slider, jquery, slideshow, effects" />
-    <meta name="description" content="Sliderman.js - will do all the sliding for you :)" />
+    <title>Love Junkies - the Musical</title>
+  <link rel="stylesheet" href="styles/font-awesome.min.css">
+  <link rel="stylesheet" style="text/css" href="styles/style.css">
+  <link rel="stylesheet" style="text/css" href="styles/style_photos.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>  
+  <script src="http://d3js.org/d3.v3.min.js" type="text/javascript" charset="utf-8"></script>
     <style type="text/css">
         * { margin: 0; outline: none; }
         body { background-color: #444444; }
         .c { clear: both; }
         #wrapper { margin: 0 auto; padding: 0 40px 60px 40px; width: 960px; }
-        h2 { padding: 20px 0 10px 0; font-size: 24px; line-height: 40px; font-weight: normal; color: #adc276; text-shadow: 0 1px 3px #222222; }
+        h2 { padding: 29px 0 3px 130px; font-size: 24px; line-height: 40px; font-weight: normal; color: #4169E1; text-shadow: 0 1px 3px #222222; }
     </style>
 
     <!-- sliderman.js -->
@@ -20,6 +21,32 @@
     <!-- /sliderman.js -->
 </div>
 <body>
+    <div class="navigation_bar">
+        <ul>
+       <!--  <li class="tiziana"><img src="images/Tiziana.jpg" height="90"><span class="trying">The New Musical <br/>by Tiziana Perinotti</span></li> -->
+        <div class="others">
+          <li><a href="index.html">Home</a></li>
+          <li><span class="about"><a href="#">About the Show</a>
+              <ul class="fallback">
+                <li><a href="about.html">About</a></li>
+                <li><a href="photos_videos.html">Photos & Videos</a></li>
+              </ul>
+              </span>
+          </li>
+          <li><a href="#">Cast & Creative</a>
+              <ul class="fallback">
+                <li><a href="cast.html">Cast</a></li>
+                <li><a href="creative.html">Creative</a></li>
+              </ul>
+          </li>
+          <li><a href="contacts.html">Contact Us</a></li>
+          <li><img src="images/fb-image.jpg" height="30" title="Our Facebook Page"></li>
+        </div>
+        </ul>  
+    </div>
+
+    <h1>Photos</h1>
+
     <div id="wrapper">
 
         <div id="examples_outer">
@@ -28,20 +55,20 @@
             <div id="slider_container_2">
 
                 <div id="SliderName_2" class="SliderName_2">
-                    <img src="images/Tiziana.jpg" width="700" height="450" alt="Demo2 first" title="Demo2 first" usemap="#img1map" />
+                    <img src="images/tj_rj.jpg" width="700" height="450" alt="Demo2 first" title="Demo2 first" usemap="#img1map" />
                     <map name="img1map">
                         <area href="#img1map-area1" shape="rect" coords="100,100,200,200" />
                         <area href="#img1map-area2" shape="rect" coords="300,100,400,200" />
                     </map>
-                    <div class="SliderName_2Description">Actress, Stage Director: <strong>Tiziana</strong></div>
-                    <img src="images/Tiziana.jpg" width="700" height="450" alt="Demo2 second" title="Demo2 second" />
-                    <div class="SliderName_2Description">Some dancers: <strong>Us</strong></div>
+                    <div class="SliderName_2Description">Actors: <strong>TJ, RJ</strong></div>
+                    <img src="images/group_photo.jpg" width="700" height="450" alt="Demo2 second" title="Demo2 second" />
+                    <div class="SliderName_2Description">Show Cast: <strong>Love Junkies</strong></div>
                     <img src="images/Ramada&Sonya.jpg" width="700" height="450" alt="Demo2 third" title="Demo2 third" />
-                    <div class="SliderName_2Description">Featured model: <strong>Charlize Theron</strong></div>
+                    <div class="SliderName_2Description">Some Dancers: <strong>Us</strong></div>
                     <img src="images/Tiziana.jpg" width="700" height="450" alt="Demo2 fourth" title="Demo2 fourth" />
                     <div class="SliderName_2Description">Featured model: <strong>Charlize Theron</strong></div>
-                    <img src="images/Ramada&Sonya.jpg" width="700" height="450" alt="Demo2 fourth" title="Demo2 fourth" />
-                    <div class="SliderName_2Description">Featured model: <strong>Charlize Theron</strong></div>
+                    <img src="images/tj_rj_gio.jpg" width="700" height="450" alt="Demo2 fourth" title="Demo2 fourth" />
+                    <div class="SliderName_2Description">Actors: <strong>TJ, Gio, RJ</strong></div>
                 </div>
                 <div class="c"></div>
                 <div id="SliderNameNavigation_2"></div>
@@ -51,7 +78,7 @@
                     effectsDemo2 = 'rain,stairs,fade';
                     var demoSlider_2 = Sliderman.slider({container: 'SliderName_2', width: 700, height: 450, effects: effectsDemo2,
                         display: {
-                            autoplay: 3000,
+                            autoplay: 100000,
                             loading: {background: '#000000', opacity: 0.5, image: 'images/loading.gif'},
                             buttons: {hide: true, opacity: 1, prev: {className: 'SliderNamePrev_2', label: ''}, next: {className: 'SliderNameNext_2', label: ''}},
                             description: {hide: true, background: '#000000', opacity: 0.4, height: 50, position: 'bottom'},

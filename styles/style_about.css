@@ -2,8 +2,8 @@
 	padding: 82px 100px 50px 100px;
 
 /*	background-color: #DDA0DD;*/
-  background: -webkit-linear-gradient(bottom, rgba(96,81,176,.1), rgba(96,81,176,1));
-  background: -moz-linear-gradient(bottom, rgba(96,81,176,.1), rgba(96,81,176,1));
+  background: -webkit-linear-gradient(bottom, rgba(60,00,00,.1), rgba(60,00,00,1));
+  background: -moz-linear-gradient(bottom, rgba(60,00,00,.1), rgba(60,00,00,1));
   border-radius: 5px;
   margin: 0px 0px 0px 0px;
 }

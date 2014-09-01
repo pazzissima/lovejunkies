@@ -134,5 +134,14 @@ z-index: 10000;
   float: right;
   border: 1px solid #380000 ;
 }
+.email_form{
+  padding:100px 10px 10px 50px;
+}
+.email_form input, .email_form form{
+  color: black;
+}
+
+
+
 
 

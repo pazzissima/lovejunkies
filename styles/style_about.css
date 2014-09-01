@@ -1,9 +1,29 @@
 .about_the_show{
-	padding: 82px 100px 50px 100px;
+	padding: 82px 100px 18px 100px;
 
 /*	background-color: #DDA0DD;*/
   background: -webkit-linear-gradient(bottom, rgba(60,00,00,.1), rgba(60,00,00,1));
   background: -moz-linear-gradient(bottom, rgba(60,00,00,.1), rgba(60,00,00,1));
   border-radius: 5px;
   margin: 0px 0px 0px 0px;
+}
+
+.credits{
+  margin: 0 auto;
+  background-color: #B0C4DE;
+  color: black;
+  width: 385px;
+  padding: 10px;
+  line-height: 24px;
+  text-align: justify;
+  border-radius: 5px;
+  display: block;
+  border: 1px solid black;
+}
+
+.creditable{
+  color: red;
+  font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+  font-size: 14px;
+  font-weight: bold;
 }

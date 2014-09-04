@@ -2,7 +2,7 @@ body{
 /*  background-color: white;*/
   color: white;
 /*  padding-top: 20px;*/
-  height: 1000px;
+  height: 768px;
   background: url('../images/theater-background.jpg') no-repeat fixed center;
   background-size: 100% 100%;
 }
@@ -74,7 +74,8 @@ z-index: 10000;
 .content .title_lj{
   font-size: 43px;
   color: white;
-  padding-top:85px;
+  /*padding-top:85px;*/
+  padding-top:77px;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
@@ -97,18 +98,20 @@ z-index: 10000;
   margin: auto;
   display: block;
 
-  width: 400px;
+  /*width: 400px;*/
+  width: 270px;
      border-radius: 20px;
      -webkit-border-radius: 20px;
      -moz-border-radius: 20px;
 }
 .main_page_content{
-  background: #500000;
+  background: #666699;
   margin-left:auto;
   margin-right:auto;
   margin-bottom: 40px;
   overflow:hidden;
-  width:465px;
+ /* width:465px;*/
+  width: 320px;
   box-shadow: inset 0 50px rgba(255,255,255,0.1),
          inset 2px -15px 30px rgba(0,0,0,0.4),
          2px 2px 5px rgba(0,0,0,0.3);
@@ -121,14 +124,14 @@ z-index: 10000;
 }
 
 .main_text{
-  margin: 10px 50px 20px 50px;
+  /*margin: 10px 50px 20px 50px;*/
   background-color: black;
   background: -webkit-linear-gradient(top, #000a0a, rgba(0,10,10,0.4));
   background: -moz-linear-gradient(top, #000a0a, rgba(0,10,10,0.4));
-  padding: 10px;
+  padding: 7px;
   line-height: 24px;
   text-align: justify;
-  margin: -120px 67px 50px 229px;
+  margin: -120px 67px 20px 229px;
   border-radius: 5px;
   display: inline;
   float: right;

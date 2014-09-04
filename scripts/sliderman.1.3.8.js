@@ -346,6 +346,22 @@ var Sliderman = new function(){
 		var animateInterval = setInterval(timerFunc, effect.interval);
 
 	}//Effects
+
+	document.onkeydown = checkKey;
+
+	function checkKey(e) {
+
+	    e = e || window.event;
+
+	    if (e.keyCode == '39') {
+	        // right arrow
+	        alert('Please use your mouse to switch to the next slider')
+	    }
+	    // else if (e.keyCode == '37') {
+	    //     // left arrow
+	    //     alert('Please use your mouse to switch to the previous slider')
+	    // }
+	}
 	function getOrder(effect){
 		var a = [], o, m = 0;
 		if(effect.count > 1){

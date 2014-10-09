@@ -129,6 +129,9 @@ z-index: 10000;
   .navigation_bar li{
     margin: 0 2px;
   }
+  .eventbrite{
+    width: 40% !important;
+  }
 }
 
 .main_text{
@@ -175,9 +178,10 @@ z-index: 10000;
   float: left;
  /* border: 1px solid #380000 ;*/
   text-shadow: 3px 3px 2px black;
-  line-height: 20px;
-  font-size: 14px;
+  line-height: 15px;
+  font-size: 13px;
 /*  font-style:italic;*/
+  width: 27%;
 }
 .eventbrite a:hover{
   color: black;
